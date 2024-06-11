@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import './colors.css';
+
+body, h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Press Start 2P',cursive ;
+}
+body {
+    background-color: var(--light-brown);
+    min-height: calc(100vh - 5rem);
+    position: relative;
+    padding-bottom: 5rem;;
+}
+
+nav {
+    background-color: var(--light);
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+nav .title {
+    padding: 0.75rem;
+    padding-left: 0px;
+    color: orange;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a img{
+   width: 55px;
+   height: auto;
+
+}
+
+nav form {
+    display: inline;
+    float: right;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+nav .search{
+    font-family: 'Press Start 2P',cursive ;
+    padding: 0.25rem 0.75rem;
+}
+
+nav .search:focus{
+    outline: none !important;
+    border: 1px solid var(--orange);
+}
+
+.heading{
+    text-align: center;
+    margin: 1.75rem;
+}
+
+footer{
+    position: absolute;
+    bottom:0px;
+    background-color: var(--light);
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer a{
+    width: fit-content;
+}
+
